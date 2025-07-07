@@ -3,6 +3,9 @@
 ### Purpose  
 Allow the user to ask the program to change itself.
 
+### Requirements
+You need a ChatGPT OpenAI key
+
 ### Demo (GUI Version)
 ```
 python.exe hello_world.py
@@ -23,8 +26,10 @@ acg.request_change(__file__, use_voice=True)   # User speaks into the microphone
 ### Notes
 - The Whisper model (for speech-to-text) is loaded only when needed.
 
-### Installation
+### Setup
 ```
-pip install tk openai-whisper sounddevice numpy
-winget install ffmpeg
+1. Set the OPENAI_API_KEY environment variable. Example:
+SET OPENAI_API_KEY=sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2. pip install tk openai-whisper sounddevice numpy
+3. winget install ffmpeg
 ```
