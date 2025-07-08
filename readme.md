@@ -13,7 +13,7 @@ python.exe hello_world.py
 - Click the **Type Change** button.  
 - Enter: `"add a button to 3d plot z = sine of x plus cosine of y."`  
 - A new file with a version number will be created and run. For example: `hello_world_v1.py`. The next version will be `hello_world_v2.py`, and so on.
-- If you like an older version, then close the newer versions, and improve upon that old version.
+- If you like an older version, then close the newer versions, and continue with an older version.
 
 ### Example API Usage
 ```python
