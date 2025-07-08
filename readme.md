@@ -1,4 +1,4 @@
-# Self-Modifying Program via ACG
+# Self-Modifying Program with AI
 
 ### Purpose  
 Allow the user to ask the program to change itself.
